@@ -1,7 +1,7 @@
 package com.company;
 
 public class Main {
-    public static void demo1() {
+    public static void array1() {
         int score1, score2, score3, score4, score5;
         score1 = 10;
         score2 = 15;
@@ -23,10 +23,20 @@ public class Main {
             sum2 = sum2 + scores[i];
         }
         System.out.println(sum2);
+    }
 
+    public static void array2() {
+        int[] scores = {10, 15, 20, 25, 30, 35};  //line14-20
+        int sum2 = 0;
+        for (int i = 0; i < scores.length; i++) {
+            sum2 = sum2 + scores[i];
+        }
+        System.out.println(sum2);
     }
 
     public static void main(String[] args) {
-        demo1();
+        array1();
+        array2();
+
     }
 }
