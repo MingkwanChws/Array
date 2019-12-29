@@ -11,14 +11,15 @@ public class Main {
         int sum = score1 + score2 + score3 + score4 + score5;
         System.out.println(sum);
 
-        int[] scores = new int[]; //0-4
+        int[] scores = new int[6]; //0-4
         scores[0] = 10;
         scores[1] = 15;
         scores[2] = 20;
         scores[3] = 25;
         scores[4] = 30;
+        scores[5] = 150;
         int sum2 = 0;
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < scores.length; i++) {
             sum2 = sum2 + scores[i];
         }
         System.out.println(sum2);
