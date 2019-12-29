@@ -26,7 +26,7 @@ public class Main {
     }
 
     public static void array2() {
-        int[] scores = {10, 15, 20, 25, 30, 35};  //line14-20
+        int[] scores = {10, 15, 20, 25, 30, 35};  //line14-20 แต่ละค่าต้องเป็นประเภทเดียวกัน
         int sum2 = 0;
         for (int i = 0; i < scores.length; i++) {
             sum2 = sum2 + scores[i];
@@ -34,9 +34,17 @@ public class Main {
         System.out.println(sum2);
     }
 
+    public static void arrayString() {
+        String[] coffee = {"Latte" , "Americano"};
+        for (int i = 0; i < coffee.length; i++) {
+            System.out.println(coffee[i]);
+        }
+    }
+
     public static void main(String[] args) {
         array1();
         array2();
+        arrayString();
 
     }
 }
