@@ -6,6 +6,13 @@ public class Main {
         score1 = 10;
         score2 = 15;
 
+        int[] scores = new int[5]; //0-4
+        scores[0] = 10;
+        scores[1] = 15;
+        scores[2] = 20;
+        scores[3] = 25;
+        scores[4] = 30;
+
 
     }
 
