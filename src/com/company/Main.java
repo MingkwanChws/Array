@@ -11,7 +11,7 @@ public class Main {
         int sum = score1 + score2 + score3 + score4 + score5;
         System.out.println(sum);
 
-        int[] scores = new int[5]; //0-4
+        int[] scores = new int[]; //0-4
         scores[0] = 10;
         scores[1] = 15;
         scores[2] = 20;
