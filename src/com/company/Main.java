@@ -14,6 +14,8 @@ public class Main {
         scores[4] = 30;
 
 
+
+        
     }
 
     public static void main(String[] args) {
